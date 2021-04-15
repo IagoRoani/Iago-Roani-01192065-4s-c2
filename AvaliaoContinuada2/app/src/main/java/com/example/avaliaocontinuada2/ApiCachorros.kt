@@ -6,6 +6,9 @@ import retrofit2.http.Path
 
 interface ApiCachorros {
 
+    @GET("filmes")
+    fun get(): Call<List<Cachorro>>
+
     @GET("filmes/{id}")
     fun get(@Path("id") id:Int): Call<Cachorro>
 
