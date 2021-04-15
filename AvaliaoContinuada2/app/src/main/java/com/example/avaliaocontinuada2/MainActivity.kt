@@ -104,11 +104,11 @@ class MainActivity : AppCompatActivity() {
                 override fun onResponse(call: Call<Cachorro>, response: Response<Cachorro>) {
                     val cachorro = response.body()
                     if (cachorro != null) {
-                        telaSucesso.putExtra("raca", "${cachorro.raca}")
-                        telaSucesso.putExtra("precoMedio", cachorro.precoMedio)
-                        telaSucesso.putExtra("indicadoCrianca", cachorro.indicadoCriancas)
+                        telaSucesso.putExtra("raca2", "${cachorro.raca}")
+                        telaSucesso.putExtra("precoMedio2", cachorro.precoMedio)
+                        telaSucesso.putExtra("indicadoCrianca2", cachorro.indicadoCriancas)
                     } else {
-                        telaSucesso.putExtra("naoEncontrado", "não encontrado")
+                        telaSucesso.putExtra("naoEncontrado2", "não encontrado")
                     }
                 }
 
