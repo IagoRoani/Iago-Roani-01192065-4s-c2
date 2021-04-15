@@ -4,4 +4,11 @@
     <string name="cachorro2">Cachorro 2:</string>
     <string name="informe_numero_1">Informe um número...</string>
     <string name="botao">Comprar cachorros</string>
+    <string name="falha">Deu ruim... Nenhum cachorro encontrado com os números informados</string>
+    <string name="recibo">Esses são os cachorros selecionados e o valor da compra</string>
+    <string name="raca_cachorro1">Não encontrado</string>
+    <string name="raca_cachorro2">Não encontrado</string>
+    <string name="total_compra">Preço total de compra:R$</string>
+    <string name="valor_compra">00000</string>
+    <string name="cachorro_crianca">Apenas amigáveis com crianças</string>
 </resources>
